@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="count.css">
+</head>
+<body>
+   <h1> Acheieve This milestone - Node js , Express js , MongoDB </h1>
+     
+    <div id="getting-started">
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" 
+    crossorigin="anonymous">
+
+</script>
+
+<script src="jquery.countdown.min.js"></script>
+
+    <script>
+$(document).ready(function(){
+
+    $('#getting-started').countdown('2023/05/22', function(event) {
+    
+    $(this).html(event.strftime('<div> <span>%D</span> <span>Days</span> </div> <div> <span>%H</span> <span>Hours</span> </div> <div> <span>%M</span> <span>Minutes</span> </div> <div> <span>%S</span> <span>Second</span> </div>'));
+
+});
+
+});
+    </script>
+</body>
+</html>

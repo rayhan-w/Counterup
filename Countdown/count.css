@@ -1,0 +1,20 @@
+#getting_started {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 120px;
+}
+#getting_started div {
+  background-color: blue;
+  padding: 25px 0px;
+  text-align: center;
+  width: 120px;
+  border-radius: 5px;
+}
+#getting_started div span {
+  font-size: 50px;
+  display: block;
+  color: #fff;
+}
+#getting_started div span:nth-child(2) {
+  font-size: 30px;
+}/*# sourceMappingURL=count.css.map */
